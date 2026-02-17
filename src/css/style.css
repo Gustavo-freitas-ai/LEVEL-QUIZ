@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(61, 216, 216, 0.781);
+    height: 70px;
+}
+header img{
+    margin-left: 40px;
+    width: 70px;
+}
+
+.menu-hamburger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.menu-hamburger span{
+    display: flex;
+    width: 40px;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
