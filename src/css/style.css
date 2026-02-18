@@ -1,7 +1,11 @@
+body{
+    background-color: rgb(223, 233, 250);
+}
+
 header{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(61, 216, 216, 0.781);
+    background-color: rgb(2, 84, 160);
     height: 70px;
 }
 header img{
@@ -25,4 +29,28 @@ header img{
     height: 5px;
     background-color: black;
     border-radius: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.button-play{
+    display: flex;
+    padding-top: 60px;
+}
+.button-play button{
+    background-color: #FFEA00;
+    padding: 30px 80px;
+    border-radius: 60px;
+}
+
+.button-play button a{
+    font-size: 30px;
+    color: #0D3DDD;
+    font-weight: bold;
 }
