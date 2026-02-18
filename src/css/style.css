@@ -1,8 +1,12 @@
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: rgb(2, 84, 160);
     height: 70px;
+    padding: 0 40px;
+    position: relative;
+    z-index: 10;
 }
 header img{
     margin-left: 40px;
@@ -10,21 +14,69 @@ header img{
 }
 
 .menu-hamburger{
+    width: 40px;
+    height: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    gap: 10px;
+    justify-content: space-between;
     cursor: pointer;
-    margin-right: 40px;
 }
 
 .menu-hamburger span{
-    display: flex;
-    width: 40px;
     height: 5px;
-    background-color: black;
-    border-radius: 10px;
+    width: 100%;
+    background: rgb(255, 234, 44);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: -260px; /* escondido */
+    width: 260px;
+    height: 100vh;
+    background: #013a70;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    transition: left 0.4s ease;
+}
+
+.sidebar a{
+    color: white;
+    text-decoration: none;
+    padding: 18px 30px;
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    transition: 0.2s;
+}
+
+.sidebar a:hover{
+    background: rgba(255,255,255,0.15);
+    padding-left: 40px;
+}
+
+#menu-toggle:checked ~ .sidebar{
+    left: 0;
+}
+
+#menu-toggle:checked + .menu-hamburger span:nth-child(1){
+    transform: rotate(45deg) translate(8px,8px);
+}
+
+#menu-toggle:checked + .menu-hamburger span:nth-child(2){
+    opacity: 0;
+}
+
+#menu-toggle:checked + .menu-hamburger span:nth-child(3){
+    transform: rotate(-45deg) translate(8px, -10px);
+}
+
+#menu-toggle{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
 }
 
 main{
