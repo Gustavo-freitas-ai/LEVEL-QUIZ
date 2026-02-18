@@ -7,3 +7,12 @@
     background: none;
     text-decoration: none;
 }
+
+body{
+    background-color: rgb(223, 233, 250);
+    font-family: "Raleway", sans-serif;
+}
+
+:root{
+    --font-size-play: 40px; 
+}
