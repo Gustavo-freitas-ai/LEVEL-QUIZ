@@ -44,10 +44,11 @@ header img{
 }
 
 .sidebar a{
-    color: white;
+    color: #FFEA00;
     text-decoration: none;
     padding: 18px 30px;
-    font-size: 22px;
+    font-size: var(--font-size-button-menu);
+    font-weight: var(--font-weight-button-menu);
     font-family: "Raleway", sans-serif;
     transition: 0.2s;
 }
@@ -92,7 +93,7 @@ main{
     padding-top: 60px;
 }
 .button-play button{
-    background-color: #FFEA00;
+    background-color: #fffb00;
     padding: 30px 80px;
     border-radius: 60px;
     cursor: pointer;
@@ -100,6 +101,6 @@ main{
 
 .button-play button a{
     font-size: var(--font-size-play);
+    font-weight: var(--font-weight-play);
     color: #0D3DDD;
-    font-weight: bold;
 }

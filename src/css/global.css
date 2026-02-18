@@ -9,10 +9,13 @@
 }
 
 body{
-    background-color: rgb(223, 233, 250);
+    background-color: rgb(5, 13, 29);
     font-family: "Raleway", sans-serif;
 }
 
 :root{
     --font-size-play: 40px; 
+    --font-weight-play: 900;
+    --font-size-button-menu: 26px;
+    --font-weight-button-menu: 600;
 }
