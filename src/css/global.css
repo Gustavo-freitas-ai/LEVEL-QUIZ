@@ -106,4 +106,10 @@ header img {
     --font-weight-play: 900;
     --font-size-button-menu: 26px;
     --font-weight-button-menu: 600;
+    --font-size-h1: 60px;
+    --font-weight-h1: 700;
+    --font-size-p: 25px;
+    --font-weight-p: 500;
+    --font-size-alternative: 20px;
+    --font-weight-alternative: 600;
 }
