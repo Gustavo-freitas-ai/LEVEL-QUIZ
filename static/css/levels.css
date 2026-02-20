@@ -42,4 +42,10 @@ h1{
     background-color: rgb(5, 13, 29);
     padding: 10px;
     border-radius: 50px;
+    cursor: pointer;
+}
+
+.alternatives button:hover{
+    background-color: rgb(2, 84, 160);
+    transition: 0.3s;
 }
