@@ -13,7 +13,7 @@ main{
 }
 
 .button-play :hover{
-    transform: scale(1.2);
+    transform: scale(1.08);
     transition: 0.3s;
 }
 
@@ -23,9 +23,6 @@ main{
     padding: 30px 80px;
     border-radius: 60px;
     cursor: pointer;
-}
-
-.button-play button a{
     font-size: var(--font-size-play);
     font-weight: var(--font-weight-play);
     color: #fffb00;

@@ -54,18 +54,16 @@ header img {
     left: -260px;
     width: 260px;
     height: 100vh;
-    gap: 50px;
+    gap: 30px;
     background: #03135ade;
     padding-top: 100px;
     transition: left 0.4s ease;
 }
 
 .sidebar a {
-    background-color: rgb(3, 2, 78);
+    background-color: rgba(2, 1, 92, 0.527);
     display: flex;
-    width: 250px;
     color: #FFEA00;
-    border-radius: 10px;
     text-decoration: none;
     padding: 18px 30px;
     font-size: var(--font-size-button-menu);

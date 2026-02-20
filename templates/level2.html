@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/global.css">
+    <link rel="stylesheet" href="../static/css/levels.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>LEVEL 2</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="../static/img/184c22ac-4bc6-4e89-af67-6ff68afe17e1-convertido-de-png.png">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="sidebar">
+            <a href="/">Home</a>
+            <a href="#">Level</a>
+            <a href="#">About</a>
+    </header>
+
+    <main>
+
+        <h1>LEVEL 2</h1>
+
+        <div class="questions">
+
+            <p>
+                A school bus travels 180 kilometers in 3 hours.
+                If it keeps the same speed, how far will it travel in 5 hours?
+            </p>
+
+            <form method="POST">
+
+                <div class="alternatives">
+                    <button name="resposta" value="0">A) 240 km</button>
+                    <button name="resposta" value="2">B) 300 km</button>
+                    <button name="resposta" value="4">C) 360 km</button>
+                    <button name="resposta" value="6">D) 420 km</button>
+                </div>
+
+            </form>
+
+            <h2>{{ resultado }}</h2>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
