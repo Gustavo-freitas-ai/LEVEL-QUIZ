@@ -46,7 +46,7 @@ def level1():
 def level2():
     global level
 
-    if level == 1:
+    if level >= 1:
         global erros
 
         resultado = ""
@@ -74,7 +74,7 @@ def level2():
 def level3():
     global level
 
-    if level == 2:
+    if level >= 2:
         global erros
 
         resultado = ""
