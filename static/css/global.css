@@ -77,6 +77,13 @@ header img {
     padding-left: 50px;
 }
 
+footer {
+    background: #0406188a;
+    color: white;
+    padding: 20px;
+    margin-top: 182px;
+}
+
 #menu-toggle:checked~.sidebar {
     left: 0;
 }
@@ -104,7 +111,7 @@ header img {
     --font-weight-play: 900;
     --font-size-button-menu: 26px;
     --font-weight-button-menu: 600;
-    --font-size-h1: 60px;
+    --font-size-h1: 80px;
     --font-weight-h1: 700;
     --font-size-p: 25px;
     --font-weight-p: 500;

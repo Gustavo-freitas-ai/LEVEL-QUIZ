@@ -4,6 +4,7 @@ main{
     align-items: center;
     flex-direction: column;
     padding-top: 200px;
+    flex: 1;
 }
 
 .button-play{
