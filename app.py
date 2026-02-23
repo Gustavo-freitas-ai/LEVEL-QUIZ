@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect
+import time
 
 app = Flask(__name__)
 
@@ -84,6 +85,8 @@ def level3():
 
             if resposta == "1": 
                 resultado = "You Win! 🥳"
+                time.sleep(3)
+                return redirect("/")
             else:
                 erros += 1
                 resultado = f"Erro! 😢 ({erros}/3)"

@@ -75,9 +75,9 @@ header img {
 }
 
 .sidebar a:hover {
-    transform: scale(1.04);
     background: #ffffff18;
     color: rgb(255, 255, 255);
+    padding-right: 30px;
 }
 
 footer {
@@ -113,7 +113,7 @@ footer {
     --font-size-play: 40px;
     --font-weight-play: 900;
     --font-size-button-menu: 26px;
-    --font-weight-button-menu: 600;
+    --font-weight-button-menu: 700;
     --font-size-h1: 80px;
     --font-weight-h1: 700;
     --font-size-p: 25px;
