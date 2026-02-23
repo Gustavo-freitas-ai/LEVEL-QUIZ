@@ -15,14 +15,14 @@ O principal objetivo foi explorar novas funcionalidades do Python, entender melh
 ## 📂 Estrutura de Arquivos
 
 - static
-  -css
-  -img
+  - css
+  - img
 - templates
-  -index.html
-  -jlevels.html
-  -level1.html
-  -level2.html
-  -level3.html
+  - index.html
+  - jlevels.html
+  - level1.html
+  - level2.html
+  - level3.html
 - app.py
 - README.md 
 ---
