@@ -29,7 +29,7 @@ O principal objetivo foi explorar novas funcionalidades do Python, entender melh
 
  ## 🎨 Layout
 
-![PC]([https://github.com/Gustavo-freitas-ai/API_RICK_AND_MORTY/blob/main/image.png](https://github.com/Gustavo-freitas-ai/LEVEL-QUIZ/blob/main/image.png))
+![PC](https://github.com/Gustavo-freitas-ai/LEVEL-QUIZ/blob/main/image.png)
 
 ## 💪 Como contribuir para o projeto
 
